@@ -1,2 +1,123 @@
+$navbar-default-bg: #007FFF;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  transition-duration:0.4s;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+  transform:scale(1.15);
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('cover.jpg');
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: black;
+  border:none;
+  opacity:0.3;
+  transition-property:opacity color;
+  transition-duration:0.4s;
+}
+
+.btn-xlarge:hover {
+  opacity:1;
+  background-color:#007FFF;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #007FFF;
+  background:white;
+}
+.navbar-default .navbar-nav>li>a {
+  transition-property:background-color color;
+  transition-duration:0.4s;
+  color: #fff;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.dropdown-toggle:hover .dropdown-menu {
+  display:black;
+}
+
+h1 {
+  opacity:0.3;
+  color:white;
+  transition-property:opacity color;
+  transition-duration:0.7s;
+}
+
+h1:hover {
+  opacity:1;
+  color:#007FFF;
+}
