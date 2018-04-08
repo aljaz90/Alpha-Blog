@@ -1,0 +1,12 @@
+<h1 align="center">Create new Category</h1>
+
+<%= render 'shared/errors', obj: @category %>
+
+<div class="login-page">
+  <div class="form">
+    <%= form_for(@category, :html => {class: "register-form", role: "form"}) do |f| %>
+      <%= f.text_field :name, class: "form-input", placeholder: "Enter Category Name", autofocus: true %>
+      <%= f.submit class: 'form-button' %>
+    <% end %>
+  </div>
+</div>
