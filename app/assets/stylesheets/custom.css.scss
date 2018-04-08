@@ -241,3 +241,27 @@ body {
   -moz-osx-font-smoothing: grayscale;      
 }
 
+.label-info {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin: 3px;
+  transition-property:opacity color;
+  transition-duration:0.4s;
+}
+
+#belecrke a {
+  color: white;
+}
+
+#belecrke a:hover {
+  text-decoration:none;
+  background-color:#00aaf5;
+}
+
+#belecrke:hover {
+  text-decoration:none;
+  background-color:#00aaf5;
+}
+.input_checkbox input {
+  width: auto !important;
+}
