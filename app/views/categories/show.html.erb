@@ -1,5 +1,10 @@
 <h1 align="center"><%= "Category: " + @category.name %></h1>
-<div align="center">
+<div align="center" class="move-away">
+  <div class="row">
+    <% if logged_in? and current_user.admin? %>
+      <span class="label label-success"><%= link_to "Edit Category", edit_category_path(@category) %></span>
+    <% end %>
+  </div>
 </div>
 <%= render 'articles/article', obj: @category_articles %>
 <div align="center">
