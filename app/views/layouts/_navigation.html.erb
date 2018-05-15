@@ -17,6 +17,7 @@
         <li><%= link_to "Articles", articles_path %></li>
         <li><a  href="/users">Users</a></li>
         <% if logged_in? %>
+          <li><%= link_to "My Currencies", crypto_path %></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actions <span class="caret"></span></a>
             <ul class="dropdown-menu">
